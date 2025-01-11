@@ -1,0 +1,41 @@
+.Wrapper {
+  margin: 32px auto;
+  padding: 32px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Wrapper > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0px;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+.Wrapper > div:nth-child(1) span {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+.description {
+  width: 100%;
+  max-width: 600px;
+  padding: 24px 0;
+  color: rgb(99 125 146);
+  font-size: 28px;
+}
+.Wrapper > p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.notFound {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .Wrapper > p {
+    font-size: 34px;
+  }
+}

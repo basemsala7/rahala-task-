@@ -1,0 +1,66 @@
+.filterWrapper > div {
+  margin-top: 16px;
+}
+.filterWrapper label {
+  font-size: 24px;
+}
+.filterWrapper select {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+}
+.selectWrapper {
+  display: flex;
+  gap: 12px;
+}
+.radioWrapper label {
+  display: inline-block;
+  margin-inline: 4px;
+}
+.radioWrapper input {
+  display: inline-block;
+  margin-inline: 8px;
+}
+.taskList > div {
+  margin: 26px auto;
+}
+.taskList {
+  position: relative;
+}
+.empty {
+  text-align: center;
+  font-size: 32px;
+  position: absolute;
+  left: 45%;
+  margin: 32px auto;
+  color: rgb(99 125 146);
+}
+@media (min-width: 768px) {
+  .filterWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .filterWrapper > div {
+    width: fit-content;
+  }
+  .taskList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .taskList > div {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .filterWrapper > div:nth-last-child(1) {
+    margin-left: auto;
+  }
+  .taskList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+ 
