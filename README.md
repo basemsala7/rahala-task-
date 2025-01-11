@@ -1,6 +1,6 @@
 # Rahala Task 
 
-I humbly apologize for the design and color palette—it's not exactly award-winning. Let's just say I'm "just a developer" and not a designer. My focus was on making things work, not making them pretty! 😅
+First of all, I humbly apologize for the design and color palette—it's not exactly award-winning. Let's just say I'm "just a developer" and not a designer. My focus was on making things work, not making them pretty! 😅
 
 Recently, I've been using a specific pattern in my projects that I find effective. You can find  it in this repository [React-Architecture](https://github.com/basemsala7/React-Architecture/) , 
 I made sure to cover all the requirements and followed the specified approaches as closely as possible. Hopefully
@@ -58,5 +58,16 @@ I have separated the UI and   functionality by encapsulating the  logic into a c
 
 I used React Portal to create a popup modal for both delete and edit actions. This approach ensures better structure and flexibility when working with modals in the application.
 
+## Context Api
+```
+Context/         
+   ├── useTasksContext.jsx 
+
+```
+its also custom components share Tasks , filtered Tasks functions and Delete tasks 
+
+![entire app](entire-app.png) 
 
 
+
+Thank you for taking the time to review this project. I hope it showcases my skills and approach to problem-solving. 
