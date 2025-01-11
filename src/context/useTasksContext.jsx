@@ -19,8 +19,7 @@ const TaskProvider = ({ children }) => {
       const response = await axios.delete(`/tasks/${id}`);
       const filteredTask = allTasks.filter((task) => task?.id != id);
       setAllTasks(filteredTask);
-      toast.dismiss();
-      toast.success("Task deleted successful ", toastConfig);
+      
       callback(false);
       //console.log("taskes after delete", allTasks);
     } catch (error) {
